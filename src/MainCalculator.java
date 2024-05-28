@@ -78,8 +78,7 @@ public class MainCalculator {
         double num2 = scanner.nextDouble();
 
         MainCalculator calculator = new MainCalculator();
-
-        // Encapsulation and abstraction.
+        
         calculator.setOperation(new Addition());
         System.out.println("Addition = " + calculator.performCalculation(num1, num2));
         System.out.println("==============================");
